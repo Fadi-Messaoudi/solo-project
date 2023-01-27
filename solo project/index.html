@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My project</title>
+    <script src="query.js"></script>
+</head>
+<body>
+    <h1> Matching Game</h1>
+<video autoplay muted loop id="myVideo">
+    <source src="/image/Network.mp4" type="video/mp4">
+  </video>
+    <img>
+    <h2 style="position:absolute;right:39px;width:25%;height:700px;">Digital Clock </h2>
+    <div style="position:absolute;right:0px;;width:25%;height:650px;" class="clock"> 
+        <div>
+            <span id="hour">00</span>
+            <span class="text">Hours</span>
+        </div>
+        <div>
+            <span id="minutes">00</span>
+            <span class="text">Minutes</span>
+        </div>
+        <div>
+            <span id="seconds">00</span>
+            <span class="text">Seconds</span>
+        </div>
+        <div>
+            <span id="ampm">AM</span>
+            
+        </div>
+    </div>
+
+        <div class=" container"style="position: absolute;right: 0%;height: 100%;" > 
+            <h2> Write a Review</h2>
+            <textarea id="textarea"  placeholder="Please don't across 100 Characters..."maxlength="100"></textarea>
+            <div class="counter-container">
+                <p style="color:black;">
+                    Total Characters:
+                    <span  id="total-counter"></span>
+                </p>
+                <p style="color:black;">
+                    Remaining:
+                    <span  id="remaining-counter"></span>
+                </p> <button id="btn">send</button>
+            </div>
+        </div>
+    
+      
+        <div class="image-row">
+        <img class="hide" onClick="clicked(this);" src="/image/2_of_clubs.jpg"></img>
+        <img class="hide" onClick="clicked(this);" src="/image/8_of_spades.jpg"></img>
+        <img class="hide" onClick="clicked(this);" src="/image/queen_of_spades2.jpg"></img>
+        <img class="hide" onClick="clicked(this);" src="/image/ace_of_clubs.jpg"></img>
+        </div>
+        <div class="image-row">
+        <img class="hide" onClick="clicked(this);" src="/image/2_of_diamonds.jpg"></img>
+        <img class="hide" onClick="clicked(this);" src="/image/3_of_spades.jpg"></img>
+        <img class="hide" onClick="clicked(this);" src="/image/9_of_hearts.jpg"></img>
+        <img class="hide" onClick="clicked(this);" src="/image/king_of_diamonds2.jpg"></img>
+        </div>
+        <div class="image-row">
+        <img class="hide" onClick="clicked(this);" src="/image/3_of_hearts.jpg"></img>
+        <img class="hide" onClick="clicked(this);" src="/image/7_of_diamonds.jpg"></img>
+        <img class="hide" onClick="clicked(this);" src="/image/ace_of_clubs.jpg"></img>
+        <img class="hide" onClick="clicked(this);" src="/image/6_of_diamonds.jpg"></img>
+        </div>
+        <div class="image-row">
+        <img class="hide" onClick="clicked(this);" src="/image/2_of_clubs.jpg"></img>
+        <img class="hide" onClick="clicked(this);" src="/image/8_of_spades.jpg"></img>
+        <img class="hide" onClick="clicked(this);" src="/image/queen_of_spades2.jpg"></img>
+        <img class="hide" onClick="clicked(this);" src="/image/ace_of_spades.jpg"></img>
+        </div>
+        <div class="image-row">
+        <img class="hide" onClick="clicked(this);" src="/image/3_of_hearts.jpg"></img>
+        <img class="hide" onClick="clicked(this);" src="/image/7_of_diamonds.jpg"></img>
+        <img class="hide" onClick="clicked(this);" src="/image/ace_of_spades.jpg"></img>
+        <img class="hide" onClick="clicked(this);" src="/image/6_of_diamonds.jpg"></img>
+        </div>
+        <div class="image-row">
+        <img class="hide" onClick="clicked(this);" src="/image/2_of_diamonds.jpg"></img>
+        <img class="hide" onClick="clicked(this);" src="/image/3_of_spades.jpg"></img>
+        <img class="hide" onClick="clicked(this);" src="/image/9_of_hearts.jpg"></img>
+        <img class="hide" onClick="clicked(this);" src="/image/king_of_diamonds2.jpg"></img>
+     
+        </div>
+        
+       
+    <script src="main.js"></script>
+</body>
+</html>
